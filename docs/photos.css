@@ -1,0 +1,5 @@
+.product-shot{display:block;position:absolute;inset:0;background-size:400% 400%;background-repeat:no-repeat;background-color:#f4ede0;transition:transform .3s ease}
+.product-photo:hover .product-shot{transform:scale(1.055)}
+.product-photo:before{z-index:1;pointer-events:none}
+.photo-badge,.photo-hint{z-index:2}
+@media(max-width:530px){.product-shot{background-size:400% 400%}}
